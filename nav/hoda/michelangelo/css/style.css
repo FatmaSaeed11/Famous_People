@@ -1,0 +1,118 @@
+body
+{
+	background-color:#e6e6e6;
+	border-left: 70px solid #e6e6e6;
+	border-right: 70px solid #e6e6e6;
+
+}
+.header h1
+{
+	color:#b30000;
+	font-size: 50px;
+	float: left;
+	margin-left:20px;
+	margin-top:0px;
+	Text-shadow: 5px 5px white;
+
+
+}
+.img_1
+{
+	float: left;
+	right: 50px;
+	margin-top:10px;
+	margin-right:10px;
+	-webkit-box-reflect: below 8px linear-gradient(transparent,transparent,#004);
+}
+.intro
+{
+	float: left;
+	font-size: 15px;
+	margin-right:50px;
+	margin-left:20px;
+
+}
+.t1 h1
+{
+	color:black;
+	font-size: 30px;
+	float: left;
+	margin-left:0px;
+	margin-top:0px;
+
+}
+.text_1
+{
+	color:#004d99;
+	font-size: 15px;
+	float: left;
+
+}
+.quote
+{
+	color:#b30000;
+	font-size: 15px;
+	float: left;
+
+}
+.t2 h1
+{
+	color:black;
+	font-size: 30px;
+	float: left;
+	margin-left:0px;
+	margin-top:15px;
+
+}
+.img_2
+{
+	float: right;
+	right: 50px;
+	margin-right:10px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top: 5px;
+}
+.img_3
+{
+	float: left;
+	right: 50px;
+	margin-right:10px;
+}
+.f_l
+{
+	color:#b30000;
+	font-size: 20px;
+	float: left;
+	margin-top:0px;
+	padding-right:30px;
+
+
+}
+.lyrics
+{
+	color:black;
+	font-size: 20px;
+	margin-left:450px;
+	margin-right:500px;
+}
+.Gallery img
+{
+	padding:10px;
+	width: 200px;
+	height: 150px;
+	transition: .5s;
+}
+.Gallery img:hover
+{
+	transform: scale(2);
+	filter: brightness (.4);
+}
+
+.footer_links li
+{
+	list-style:none;
+	display:inline-block;
+	font-size:20px;
+	text-transform:uppercase;
+}

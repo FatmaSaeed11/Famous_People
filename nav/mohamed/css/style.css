@@ -1,0 +1,289 @@
+/*glopal*/
+*{
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	/*height: 2000px;*/
+	/*min-height: 800px;
+*/
+}
+
+.container{
+	width: 1000px;
+	margin:auto;
+}
+
+.cf{
+	clear: both;
+}
+ul{
+	list-style: none;
+
+	padding: 0;
+	margin: 0;
+}
+nav, 
+.header,
+.services,
+.our-team,
+.testim,
+.our-projects,
+.footer {
+	min-width: 800px;
+
+}
+/*glopal*/
+
+/*nav*/
+nav{
+	position: relative;
+	z-index: 2;
+	color: #fff;
+}
+
+nav .logo{
+	float: left;
+	width: 40%;
+	margin-top: 24px;
+	color:#fff;
+	font-size: 25px;
+}
+nav .logo	:hover{
+	color:#ff7a36;
+
+}
+nav .links{
+
+	float: left;
+	width: 60%;
+	margin-top: 15px;
+	
+	
+}
+
+nav .links li{
+	display: inline-block;
+	padding: 10px 15px;
+	margin-left: 40px;
+	font-size: 18px;
+
+}
+nav .links #out{
+	
+	font-size: 20px;
+	font-weight: bold;
+}
+nav .links  .active a{
+
+
+	color: #ff7a36;
+}
+nav .links li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+nav .links li a:hover{
+	color: #ff7a36;
+}
+
+nav .links  .active,
+nav .links li:hover{
+	color: #ff7a36 !important;
+	border-bottom: 2px solid #ff7a36;
+}
+/*nav*/
+/*slider*/
+header{
+
+	
+	background:url('../imgs/header.jpg');
+	position: relative;
+
+		
+}
+
+header .over{
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.search {
+  width: 100%;
+  position:absolute;
+  display: flex;
+  height: 100%;
+  margin-left: 10px;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 1.5px solid #ff7a36;
+  border-right: none;
+  padding: 5px;
+  height: 36px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #000;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #ff7a36;
+  background: #ff7a36;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+.sld{
+  display: none;
+  color:#000;
+  height: 100%;
+  width: 93%;
+  background-color: #fff;
+  padding: 3px;
+  margin-top: 60px;
+  border-radius: 5px;
+  margin-left: 10px;  
+  border: 1px solid #ff7a36;
+
+}
+.sld span{
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.sld ul li{
+  padding: 5px;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-left: 5px;
+  display: inline-block;
+  border-right: 1px solid #ff7a36;
+}
+
+
+.content{
+  width: 40%;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  
+}
+.content h2{
+	color: #fff;
+	width: 100%;
+	margin-left: 10px;
+	font-size: 30px;
+} 
+
+/*slider*/
+
+/*servic*/
+
+
+
+.intro {
+    padding: 60px 0;
+}
+
+.intro ul {
+    margin-top: 50px;
+    
+}
+
+.intro ul li {
+    display: inline-block;
+    border: 2px solid #D4CCCC;
+    color: #A7A7A7;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.intro ul li.active {
+    background-color: #ff7a36;
+    border: 2px solid #ff7a36	;
+    color: #FFF
+}
+
+.intro .gallery {
+    margin-top: 50px;
+    overflow: hidden
+}
+
+.intro .gallery .line > div:nth-child(2) {
+    margin-right: 1%;
+    margin-left: 1%
+}
+
+.intro .gallery .line > div {
+    width: 32.66666%;
+    float: left;
+    margin-bottom: 12px;
+    background-color: #DDD;
+    position: relative
+}
+
+.intro .gallery .line > div .over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 232px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+    background-color: rgba(255, 122, 54, .9);
+    display: none;
+    cursor: pointer;
+}
+
+.intro .gallery .line > div .heart {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #FFF;
+    display: none
+}
+
+.intro .gallery .line > div:hover .over,
+.intro .gallery .line > div:hover .heart {
+    display: block
+
+}
+
+.intro .gallery .line > div img {
+    width: 100%;
+    height: 250px;
+}
+
+.intro .shuffle li {
+    cursor: pointer
+}
+
+.intro .mix {
+    display: none
+
+}
+/*service*/

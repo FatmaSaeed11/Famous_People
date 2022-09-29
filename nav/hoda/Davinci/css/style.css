@@ -1,0 +1,191 @@
+body
+{
+	background-color: #e6fff2;
+	border-left: 100px solid #e6fff2 ;
+	border-right: 100px solid #e6fff2;
+
+	
+}
+
+.one
+{	
+	float: left;
+	padding:20px;
+	right: 100px;
+	margin-bottom:20px;
+	margin-left:20px;
+	
+	
+}
+.header h1
+{
+		color:#005580;
+		margin-top: 0px;
+		text-align: left;
+		font-size: 80px	;
+		font-family: Algerian;
+}
+
+
+.leo_1 h1
+{
+	font-size:50px;
+	font-family: Cooper Black;
+	color:#005580;	
+	text-align: center;
+
+}
+
+
+.about
+{
+	color: #005580;
+	font-family:Tahoma;
+	font-size: 13px;
+	font-weight: bolder;
+	text-align:left;
+
+
+}
+.text_1
+{
+	Color:black;
+	font-size:15px;
+	margin-left:200px;
+	text-align:left;
+	
+}
+.text_2
+{
+	Color:black;
+	font-size:15px;
+	text-align:left;
+	padding:10px;
+}
+.two
+{	
+	float: right;
+	margin-right: 10px;
+	padding: 6px;
+}
+.three
+{	
+	float: left;
+	margin-right: 10px;
+	padding:6px;
+}
+.four
+{	
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	padding:6px;
+}
+.eng
+{	
+	float: right;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	padding:6px;
+}
+
+.twelve
+{	
+	float: right;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	border:5px groove white;
+
+}
+
+
+.year
+{
+	color:  black;
+	font-size:20px;
+	font-family: Arial Black;
+
+
+}
+.five
+{
+	border:5px groove white;
+	float: left;
+		
+}
+.six
+{
+	border:5px groove white;
+	margin-left: 300px;
+}
+.seven
+{
+	border:5px groove white;
+	float: right;
+
+}
+.img1
+{
+	color:black;
+	font-size: 10px;
+	margin-left:5px;
+}
+.last
+{
+	border:5px groove white;
+	float: left;
+	margin-left:200px;
+}
+.lad
+{
+	border:5px groove white;
+	float: right;
+	margin-right:200px;
+}
+.img2
+{
+	color:black;
+	font-size: 10px;
+	margin-left:160px ;
+	border:30px;
+}
+.monaliza
+{
+	border:5px groove white;
+	float: left;
+}
+.text_3
+{
+	Color:black;
+	font-size:15px;
+	text-align:left;
+}
+.end h1
+{
+	color:black;
+	font-size: 30px;
+	font-family: Arial Black;
+	
+}
+.footer_copyright
+{
+	color:black;
+}
+.footer_linkes
+{
+	color:white;
+}
+
+.Gallery img:hover
+{
+	transform: scale(2);
+	filter: brightness (.4);
+}
+.Gallery img
+{
+	padding:10px;
+	width: 200px;
+	height: 150px;
+	transition: .5s;
+	
+}
